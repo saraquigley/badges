@@ -52,7 +52,7 @@ phantomjs lib/index.js
 ### After generating the JPGs we generate the actual GIF from the JPG frames.
 We use the **convert** command which comes with Imagemagick
 ````
-convert -loop 0 output/test-*.jpeg test.gif
+convert -loop 0 output/frame-*.png test.gif
 ````
 
 
